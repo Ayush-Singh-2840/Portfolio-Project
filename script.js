@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // JavaScript for basic interactivity
 
 // Smooth scroll for navigation links
@@ -7,7 +7,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
-            target.scrollIntoView({
+            target.scrollIntoView({ 
                 behavior: 'smooth',
                 block: 'start'
             });
@@ -19,4 +19,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 function showMessage() {
     alert("Thank you for contacting me!");              
         
+    return true;
 }
