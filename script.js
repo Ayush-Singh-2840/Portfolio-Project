@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // JavaScript for basic interactivity
 
 // Smooth scroll for navigation links
@@ -13,3 +14,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+=======
+function showMessage() {
+    alert("Thank you for contacting me!");
+}
+>>>>>>> 3a3c26dedf602a5d9f1b506e204fcc49a18eed2c
